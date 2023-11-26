@@ -111,3 +111,14 @@ function vowels(str) {
 }
 
 vowels('adfeiou');
+
+// 9
+function fibo(num) {
+  let sum = 0;
+  for (let i = 1; i <= num; i++) {
+    sum = sum + i;
+  }
+  return console.log(sum);
+}
+
+fibo(6);
