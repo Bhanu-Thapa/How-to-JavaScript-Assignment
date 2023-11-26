@@ -65,3 +65,25 @@ palin('asddsa');
 // }
 
 // prime(9);
+
+//  6
+
+function calsi(n1, n2, sym) {
+  let res = 0;
+  switch (sym) {
+    case '+':
+      res = n1 + n2;
+      break;
+    case '-':
+      res = n1 - n2;
+      break;
+    case '*':
+      res = n1 * n2;
+      break;
+    case '/':
+      res = n1 / n2;
+      break;
+  }
+  console.log(res);
+}
+calsi(5, 5, '+');
