@@ -122,3 +122,15 @@ function fibo(num) {
 }
 
 fibo(6);
+
+// 10
+
+function table(num) {
+  let sum = 0;
+  for (let i = 1; i <= 10; i++) {
+    sum = num * i;
+    console.log(num + ' * ' + i + ' = ' + sum);
+  }
+}
+
+table(7);
