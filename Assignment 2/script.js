@@ -87,3 +87,27 @@ function calsi(n1, n2, sym) {
   console.log(res);
 }
 calsi(5, 5, '+');
+
+// 7
+function vowels(str) {
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (
+      str[i] == 'a' ||
+      str[i] == 'A' ||
+      str[i] == 'e' ||
+      str[i] == 'E' ||
+      str[i] == 'i' ||
+      str[i] == 'I' ||
+      str[i] == 'O' ||
+      str[i] == 'o' ||
+      str[i] == 'U' ||
+      str[i] == 'u'
+    ) {
+      count++;
+    }
+  }
+  return console.log('Number of Vowels are ', count);
+}
+
+vowels('adfeiou');
